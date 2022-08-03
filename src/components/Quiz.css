@@ -1,0 +1,145 @@
+.body {
+    color: #293264;
+}
+
+hr {
+    border: 1px solid#DBDEF0;
+    margin-top: 25px;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blob-yellow {
+    position: fixed;
+    top: -150px;
+    right: -150px;
+    width: 400px;
+    z-index: -1;
+}
+
+.blob-blue {
+    position: fixed;
+    width: 400px;
+    bottom: -150px;
+    left: -150px;
+    z-index: -1;
+}
+
+.question {
+    width: 900px;
+}
+
+.que-text {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    width: 800px;
+    margin-bottom: 0px;
+}
+
+.options {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.option {
+    border: 2px solid #4D5B9E;
+    font-family: 'Inter', sans-serif;
+    border-radius: 13px;
+    text-align: center;
+    min-width: 60px;
+    padding: 5px 15px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.option:hover {
+    border: 2px solid #D6DBF5;
+    background-color: #D6DBF5;
+}
+
+.selected-option {
+    background-color: #D6DBF5;
+    border: 2px solid #D6DBF5;
+    font-family: 'Inter', sans-serif;
+    border-radius: 13px;
+    text-align: center;
+    min-width: 60px;
+    padding: 5px 15px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrong-option {
+    background-color: #F8BCBC;
+    border: 2px solid #F8BCBC;
+    color: #98A1CD;
+    font-family: 'Inter', sans-serif;
+    border-radius: 13px;
+    text-align: center;
+    min-width: 60px;
+    padding: 5px 15px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.correct-option {
+    background-color: #94D7A2;
+    border: 2px solid #94D7A2;
+    font-family: 'Inter', sans-serif;
+    border-radius: 13px;
+    text-align: center;
+    min-width: 60px;
+    padding: 5px 15px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.disabled-option {
+    border: 2px solid #98A1CD;
+    color: #98A1CD;
+    font-family: 'Inter', sans-serif;
+    border-radius: 13px;
+    text-align: center;
+    min-width: 60px;
+    padding: 5px 15px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.check__btn {
+    background-color: #4D5B9E;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-card {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}

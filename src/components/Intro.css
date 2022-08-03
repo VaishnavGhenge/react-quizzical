@@ -1,0 +1,49 @@
+body {
+    color: #293264;
+}
+
+.intro-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.blob-yellow {
+    position: fixed;
+    top: -150px;
+    right: -150px;
+    width: 400px;
+}
+
+.blob-blue {
+    position: fixed;
+    width: 400px;
+    bottom: -150px;
+    left: -150px;
+}
+
+.intro-heading {
+    font-family: 'Kalra', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.intro-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.intro-start__btn {
+    background-color: #4D5B9E;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding: 20px 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
